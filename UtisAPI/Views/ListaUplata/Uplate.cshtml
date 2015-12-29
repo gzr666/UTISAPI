@@ -1,0 +1,92 @@
+﻿@model IEnumerable<UtisAPI.Models.YearlyMembership>
+
+@{
+    ViewBag.Title = "View1";
+}
+
+<h2> @ViewBag.User.Name @ViewBag.User.Surname</h2>
+
+
+
+
+
+
+
+<table class="table">
+    <tr>
+        <th>
+            ID 
+        </th>
+        <th>
+            Vrsta Uplate
+        </th>
+
+       
+        <th>
+           Datum uplate:
+        </th>
+
+        <th>
+            Za godinu:
+
+            </th>
+        <th>
+            Iznos uplate
+        </th>
+
+        @*<th>
+            Print
+        </th>*@
+        
+       
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+           @item.ID
+        </td>
+        <td>
+           @item.VrstaUplate.Name
+        </td>
+        <td>
+            @item.DatumUplate.ToString("d/M/yyyy")
+        </td>
+        <td>
+                @item.Year.BeginDate.Year
+
+            </td>
+        <td>
+            @item.Amount
+        </td>
+
+        @*<td>
+            <div id="pdfHolder2">
+                <span class="clearer">Print:</span>
+                @Html.ActionLink("P", "PrintUplate2", "ListaUplata", new { id = @item.ID }, new { @class = "printPDF2" })
+            </div>
+
+            </td>*@
+        
+        
+    </tr>
+}
+
+</table>
+
+<span>
+
+    @Html.ActionLink("Povratak na listu clanova", "Index", "Clanovi",null, new { @class = "btn btn-primary" })
+
+   
+</span>
+
+@*<div id="pdfHolder">
+    <span class="clearer">Isprintaj listu:</span>
+    @Html.ActionLink("P", "PrintUplate", "ListaUplata", new { id = (int)@ViewBag.User.ID }, new { @class = "printPDF" })
+</div>*@
+
+
+
+
+

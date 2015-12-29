@@ -1,0 +1,136 @@
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\UtisAPI.dll.config
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\UtisAPI.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\UtisAPI.pdb
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\Antlr3.Runtime.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\EntityFramework.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\Newtonsoft.Json.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\PagedList.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\PagedList.Mvc.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Web.Helpers.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Web.Http.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Web.Mvc.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Web.Optimization.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Web.Razor.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Web.WebPages.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\WebGrease.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\EntityFramework.xml
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\PagedList.xml
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\PagedList.Mvc.xml
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\Newtonsoft.Json.xml
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Web.Helpers.xml
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Web.Http.xml
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Web.Mvc.xml
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Web.Optimization.xml
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Web.Razor.xml
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Web.WebPages.xml
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\Antlr3.Runtime.pdb
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\obj\Debug\UtisAPI.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\obj\Debug\UtisAPI.pdb
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\x86\sqlcese40.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\x86\sqlceqp40.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\x86\sqlceme40.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\x86\sqlceer40EN.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\x86\sqlcecompact40.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\x86\sqlceca40.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\amd64\sqlcese40.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\amd64\sqlceqp40.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\amd64\sqlceme40.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\amd64\sqlceer40EN.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\amd64\sqlcecompact40.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\amd64\sqlceca40.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\EntityFramework.SqlServerCompact.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\System.Data.SqlServerCe.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\EntityFramework.SqlServerCompact.xml
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\bin\Rotativa.dll
+C:\Users\geezer666\documents\visual studio 2013\Projects\UtisAPI\UtisAPI\obj\Debug\UtisAPI.csprojResolveAssemblyReference.cache
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI\UtisAPI\obj\Debug\UtisAPI.Migrations.Initial.resources
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI\UtisAPI\obj\Debug\UtisAPI.csproj.GenerateResource.Cache
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\UtisAPI.dll.config
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\UtisAPI.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\UtisAPI.pdb
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\x86\sqlcese40.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\x86\sqlceqp40.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\x86\sqlceme40.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\x86\sqlceer40EN.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\x86\sqlcecompact40.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\x86\sqlceca40.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\amd64\sqlcese40.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\amd64\sqlceqp40.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\amd64\sqlceme40.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\amd64\sqlceer40EN.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\amd64\sqlcecompact40.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\amd64\sqlceca40.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\Antlr3.Runtime.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\EntityFramework.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\EntityFramework.SqlServerCompact.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\Newtonsoft.Json.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\Ninject.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\Ninject.Web.Common.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\Ninject.Web.Mvc.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\PagedList.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\PagedList.Mvc.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\Rotativa.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Data.SqlServerCe.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Web.Helpers.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Web.Http.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Web.Mvc.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Web.Optimization.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Web.Razor.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Web.WebPages.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\WebActivatorEx.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\WebGrease.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\EntityFramework.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\EntityFramework.SqlServerCompact.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\Ninject.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\Ninject.Web.Common.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\Ninject.Web.Mvc.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\PagedList.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\PagedList.Mvc.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\Newtonsoft.Json.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Web.Helpers.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Web.Http.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Web.Mvc.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Web.Optimization.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Web.Razor.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Web.WebPages.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\Antlr3.Runtime.pdb
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\obj\Debug\UtisAPI.Migrations.Initial.resources
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\obj\Debug\UtisAPI.csproj.GenerateResource.Cache
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\obj\Debug\UtisAPI.dll
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\obj\Debug\UtisAPI.pdb
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\obj\Debug\UtisAPI.csprojResolveAssemblyReference.cache
+C:\Users\geezer666\Documents\Visual Studio 2013\Projects\UtisAPI -withDI\UtisAPI\bin\WebApiContrib.IoC.Ninject.dll

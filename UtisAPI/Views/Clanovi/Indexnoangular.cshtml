@@ -1,0 +1,105 @@
+﻿@model IEnumerable<UtisAPI.Models.User>
+@using PagedList.Mvc;
+@using PagedList;
+
+
+@{
+    ViewBag.Title = "Index";
+    
+   
+}
+@*@functions{
+    public double dug(double clanarina,double number)
+    {
+        
+        double y = clanarina - number;
+        return y;
+    }
+}*@
+
+<h4 class="text-center">Članovi</h4>
+
+<p>
+    @*@Html.ActionLink("Dodaj novog člana", "Create", null, new { @class="btn btn-primary"})*@
+</p>
+<div class="table-responsive">
+<table class="table" >
+    <thead>
+                <tr>
+                    <th>
+                       Ime
+                    </th>
+                    <th>
+                        Prezime
+                    </th>
+                    <th>
+                        Datum učlanjivanja
+                    </th>
+
+                    @foreach (var item in (List<UtisAPI.Models.Year>)ViewBag.years)
+                    {
+
+                        <th>
+                            Dug:  @item.BeginDate.Year
+
+                        </th>
+                    }
+                    <th>
+                        Administracija
+                    </th>
+        
+
+                    <th>Prikazi listu uplata</th>
+                </tr>
+  </thead>
+
+    <tbody>
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Surname)
+        </td>
+        <td>
+            @item.DateJoined.ToString("d/M/yyyy")
+        </td>
+
+
+        @foreach (var dug in item.Dugovi)
+        {
+            <td>
+                <p> @dug.Amount</p>
+            </td>
+
+        }
+
+        <td>
+            @Html.ActionLink("Uplata Clanarine", "Details", new { id = item.ID }, new { @class = "btn btn-danger btn-sm" })
+            
+            @Html.ActionLink("Edit", "Edit", new { id = item.ID }, new { @class="btn btn-primary btn-sm"}) 
+            
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID },new { @class="btn btn-primary btn-sm"})
+        </td>
+       
+            
+
+
+       <td>
+
+           @Html.ActionLink("ListaUplata", "Uplate","ListaUplata", new { id = item.ID }, new { @class = "btn btn-primary btn-sm" })
+
+           
+
+       </td>
+    </tr>
+  
+}
+        </tbody>
+
+</table>
+    </div>
+
+@Html.PagedListPager((IPagedList)Model, id => Url.Action("Index", new { id = id }), PagedListRenderOptions.PageNumbersOnly)
+

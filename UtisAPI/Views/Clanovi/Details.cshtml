@@ -1,0 +1,115 @@
+﻿@model  UtisAPI.Models.User
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+
+<div class="container" data-ng-controller="UplataController">
+    <div class="col-sm-8 col-sm-offset-2">
+
+        
+
+        <!-- PAGE HEADER -->
+        <div class="page-header"><h1>Izvrsi uplatu</h1></div>
+
+        <!-- FORM -->
+        <!-- pass in the variable if our form is valid or invalid -->
+        <form name="userForm" ng-submit="submitForm(userForm.$valid,@Model.ID,user,vrsta,year)" novalidate>
+            <!-- novalidate prevents HTML5 validation since we will be validating ourselves -->
+            <!-- NAME -->
+           
+
+
+            <div class="form-group" ng-class="{ 'has-error' : userForm.yearselect.$invalid && !userForm.yearselect.$pristine }">
+                <label>Odaberi godinu:</label></br>
+                <select ng-model="year" name ="yearselect"class="form-control" required  ng-options="year.id as year.beginDate | date:'yyyy' for year in years" data-ng-change="getTotal(year,@Model.ID)">
+                    
+                    <option value="">Odaberi godinu</option>
+
+                </select>
+                <p ng-show="userForm.yearselect.$invalid && !userForm.yearselect.$pristine" class="help-block">Odaberi godinu</p>
+                
+            </div>
+
+            <div class="form-group" ng-class="{ 'has-error' : userForm.yearselect.$invalid && !userForm.yearselect.$pristine }">
+                <label>Odaberi vrstu uplate:</label></br>
+                <select ng-model="vrsta" name="vrstauplateselect" class="form-control" required  ng-options="vrsta.id as vrsta.name  for vrsta in vrste" >
+
+                    <option value="">Odaberi vrstu uplate</option>
+
+                </select>
+                <p ng-show="userForm.vrstauplateselect.$invalid && !userForm.vrstauplateselect.$pristine" class="help-block">Odaberi vrstu uplate</p>
+
+            </div>
+
+            <div class="form-group" ng-class="{ 'has-error' : userForm.iznos.$invalid && !userForm.iznos.$pristine }">
+                <label>Iznos uplate(u kunama)</label></br>
+                <input ng-disabled="uclanjennaknadno" type="number" name="iznos" class="form-control" data-ng-model="user.amount" required min="1" max="{{preostaloZaUplatu}}">
+                <p ng-show="userForm.iznos.$invalid && !userForm.iznos.$pristine" class="help-block">Unesi iznos</p>
+                <p ng-show="userForm.iznos.$error.min && !userForm.username.$pristine" class="help-block">Iznos mora biti veci od 1 kn</p>
+                <p ng-show="userForm.iznos.$error.max " class="help-block">Iznos mora biti manji od {{preostaloZaUplatu}}</p>
+            </div>
+
+          
+
+            
+
+            <!-- SUBMIT BUTTON -->
+            <button type="submit" class="btn btn-primary" ng-disabled="userForm.$invalid">Submit</button>
+
+        </form>
+
+        <span id="checkedDiv2" data-ng-show="uspjeh">
+
+            <span>Uplata uspjesna</span>
+            <img src="~/Content/img/checked.png" alt="" width="50" height="60" />
+
+        </span>
+      
+        <hr />
+
+
+        <div id="ukupnaUplataDiv" data-ng-show="racun">
+            <span><strong>Ukupno Uplaceno: {{ukupnoUplaceno}} </strong></span><span id="ukupnaUplata"></span> kn<br /><br />
+            <span><strong>Preostalo za uplatiti: {{preostaloZaUplatu}}</strong></span><span id="preostalo"></span> kn<br /><br />
+            <span><strong>Godisnja clanarina: {{godisnjaClanarina + " kn"}}  </strong></span>
+        </div>
+        
+
+        
+        <span class="breadcrumb" data-ng-show="uclanjenprije"><strong>Uclanjen naknadno</strong></span>
+        <div id="checkedDiv" data-ng-show="showPicture">
+            <span><strong>Godisnja clanarina: {{godisnjaClanarina + " kn"}}  </strong></span><br /><br />
+            <span>Uplacen citav iznos</span>
+            <img src="~/Content/img/checked.png" alt="" width="50" height="60" />
+
+        </div>
+
+        
+
+        <hr />
+        <p>
+
+            @Html.ActionLink("Povratak na listu clanova", "Index", null, new { @class = "btn btn-primary" })
+
+
+            @Html.ActionLink("ListaUplata", "Uplate", "ListaUplata", new { id = Model.ID }, new { @class = "btn btn-primary" })
+
+
+
+
+        </p>
+
+
+       
+
+    </div><!-- col-sm-8 -->
+
+   
+
+
+</div><!-- /container -->
+
+

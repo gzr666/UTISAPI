@@ -1,0 +1,69 @@
+﻿
+
+
+@{
+    ViewBag.Title = "Index";
+    
+   
+}
+
+<h4 class="text-center">Članovi</h4>
+
+<div data-ng-controller="UsersController">
+
+
+    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Search users" ng-model="q">
+
+    <div class="table-responsive">
+        <table class="table table-striped table-hover table-bordered table-responsive" id="tablex">
+
+            <thead>
+
+                <tr>
+                    <th>Username</th>
+
+                    <th>Email</th>
+
+                    <th>
+                        Datum uclanjivanja
+                    </th>
+
+                    <th>
+
+                        Administracija
+                    </th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr dir-paginate="user in users | filter:q | itemsPerPage: usersPerPage " total-items="totalUsers">
+                    <td>{{ user.name }}</td>
+                    <td>{{ user.surname }}</td>
+                    <td>{{user.dateJoined |date:'dd/MM/yyyy'}}</td>
+
+                    <td>
+
+                        <a data-ng-href="@Url.Action("Details", "Clanovi")/{{user.id}}" class="btn btn-success btn-sm">Uplata Clanarine</a>
+                        <a data-ng-href="@Url.Action("Edit", "Clanovi")/{{user.id}}" class="btn btn-primary btn-sm">Uredi</a>
+                        <a data-ng-href="@Url.Action("Delete", "Clanovi")/{{user.id}}" class="btn btn-danger btn-sm">Izbrisi</a>
+
+
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        </div>
+
+
+        <div class="center-block">
+            <dir-pagination-controls boundary-links="true" on-page-change="pageChanged(newPageNumber)"></dir-pagination-controls>
+        </div>
+
+
+    </div>
+
+
+

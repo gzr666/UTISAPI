@@ -1,0 +1,86 @@
+﻿@model  UtisAPI.Models.User
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+
+<div class="container">
+
+    <div class="page-header"><h1>Unesi uplatu:  @Model.Name.ToUpper()  @Model.Surname.ToUpperInvariant()</h1></div>
+
+
+        <form method="post"action=@Url.Action("Create","Clanarine") id="myForm">
+
+
+                @Html.AntiForgeryToken()
+                <input type="hidden" value="@Model.ID"name="UserId" id="secretUser">
+                <div class="form-group">
+
+                    <div class="col-md-12">
+                       <span>Godina clanarine: </span> @Html.DropDownList("YearId", (SelectList)ViewBag.YearId, "Odaberi", new { @class = "odaberiGodinu form-control", @id = "testyear" })
+
+
+                        <br/>
+                        <br />
+                        <br />
+
+                        <span>Vrsta Uplate: </span> @Html.DropDownList("VrstaId", (SelectList)ViewBag.VrstaId, "Odaberi", new { @class = "odaberiVrstux form-control" })<br/><br />
+                        <span>Datum uplate:</span><input type="text" id="datumPlacanja" class="form-control input-sm" /><br/><br />
+                      <span> <strong>Unesite Iznos koji zelite uplatiti: </strong>  <input type="text" name="Amount" id="iznosUplate" class="form-control input-sm"></span>
+
+                        <span id="errorDiv"><img src="~/Content/img/cancel.png" alt="" width="32" height="32" /> Max.iznos uplate:<span id="errorSpan"></span></span>
+                        <span id="checkedDiv2">
+
+                            <span>Uplata uspjesna</span>
+                            <img src="~/Content/img/checked.png" alt="" width="50" height="60" />
+
+                        </span>
+                        <br/>
+
+                        <input type="submit" value="Uplati" id="AddUplata" class="btn btn-danger">
+
+
+
+
+
+                        <hr />
+
+
+
+
+                        <div id="ukupnaUplataDiv"><span><strong>Ukupno Uplaceno: </strong></span><span id="ukupnaUplata"></span> kn<br /><br />
+                        <span><strong>Preostalo za uplatiti: </strong></span><span id="preostalo"></span> kn<br /><br /></div>
+                        <span><strong>Godisnja clanarina: </strong></span><span id="godisnja"></span> kn
+
+                        <div id="checkedDiv">
+
+                                <span>Uplacen citav iznos</span>
+                                <img src="~/Content/img/checked.png" alt=""width="50" height="60"/>
+
+                        </div>
+            </div>
+
+                </div>
+
+
+            </form>
+        <hr />
+
+        <p>
+
+            @Html.ActionLink("Povratak na listu clanova", "Index", null, new { @class = "btn btn-primary" })
+
+
+            @Html.ActionLink("ListaUplata", "Uplate", "ListaUplata", new { id = Model.ID }, new { @class = "btn btn-primary" })
+
+
+
+
+        </p>
+
+
+    </div>
+    
+

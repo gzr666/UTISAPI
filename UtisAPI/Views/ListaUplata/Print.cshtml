@@ -1,0 +1,82 @@
+﻿
+@model IEnumerable<UtisAPI.Models.YearlyMembership>
+
+@{
+    ViewBag.Title = "View1";
+}
+
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/themes/base/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    </head>
+
+<body>
+
+<h2> @ViewBag.User.Name @ViewBag.User.Surname</h2>
+
+
+
+
+
+
+<table class="table">
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Vrsta Uplate
+        </th>
+
+
+        <th>
+            Datum uplate:
+        </th>
+        <th>
+            Za godinu:
+
+        </th>
+        <th>
+            Iznos uplate
+        </th>
+
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.ID
+            </td>
+            <td>
+                @item.VrstaUplate.Name
+            </td>
+            <td>
+                @item.DatumUplate.ToString("d/M/yyyy")
+            </td>
+            <td>
+                @item.Year.BeginDate.Year
+
+            </td>
+
+            <td>
+                @item.Amount
+            </td>
+
+
+        </tr>
+    }
+
+</table>
+
+</body>
+
+</html>
